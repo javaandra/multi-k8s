@@ -1,6 +1,7 @@
 docker build -t pal0man3gra/multi-client:latest -t pal0man3gra/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t pal0man3gra/multi-server:latest -t pal0man3gra/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t pal0man3gra/multi-worker:latest -t pal0man3gra/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+
 docker push pal0man3gra/multi-client:latest
 docker push pal0man3gra/multi-server:latest
 docker push pal0man3gra/multi-worker:latest
