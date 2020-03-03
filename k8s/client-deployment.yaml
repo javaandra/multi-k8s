@@ -17,4 +17,3 @@ spec:
                   image: pal0man3gra/multi-client
                   ports:
                     - containerPort: 3000
-                  imagePullPolicy: Always
